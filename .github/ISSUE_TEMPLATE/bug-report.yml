@@ -27,6 +27,7 @@ body:
       label: Installed NodeBB plugins
       description: to find installed plugins run ./nodebb plugins
       placeholder: |
+        e.g.
         * nodebb-plugin-2factor@5.0.1 (installed, disabled)
         * nodebb-plugin-composer-default@8.0.0 (installed, enabled)
         * nodebb-plugin-dbsearch@5.1.5 (installed, disabled)
