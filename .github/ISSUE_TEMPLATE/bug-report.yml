@@ -69,4 +69,6 @@ body:
     attributes:
       label: Anything else?
       description: Any additional context about the issue you're encountering
-    
+  - type: markdown
+    attributes:
+      value: Thank you!
