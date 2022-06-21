@@ -1,12 +1,12 @@
-name: Feature request
-description: Suggest an idea
+name: Feature Request
+description: Suggest a new feature
 labels: ["enhancement"]
 body:
   - type: textarea
     attributes:
-      name: Description
+      label: Description
   - type: input
     attributes:
-      name: Community forum reference
+      label: Community forum reference
       description: If this feature was already discussed on the Community Forum link it here
       placeholder: https://community.nodebb.org/topic/0/example-feature-request
