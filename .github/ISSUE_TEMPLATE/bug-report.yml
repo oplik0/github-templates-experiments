@@ -12,16 +12,16 @@ body:
   - type: input
     attributes:
       label: NodeBB version
-      placeholder: v2.2.0
+      placeholder: e.g. v2.2.0
   - type: input
     attributes:
       label: NodeBB git hash
       description: to find your git hash, execute `git rev-parse HEAD` from the main NodeBB directory
-      placeholder: 783250ee6f8c51cdc243ce3b8d9f1a080517247e
+      placeholder: e.g. 783250ee6f8c51cdc243ce3b8d9f1a080517247e
   - type: input
     attributes:
       label: NodeJS version
-      placeholder: 16.15.1
+      placeholder: e.g. v16.15.1
   - type: textarea
     attributes:
       label: Installed NodeBB plugins
@@ -53,7 +53,7 @@ body:
     attributes:
       label: Database version
       description: "`mongod --version`, `redis-server --version`, or `postgres --version`"
-      placeholder: 5.0.9
+      placeholder: e.g. v5.0.9
   - type: textarea
     attributes:
       label: Exact steps to cause this issue
