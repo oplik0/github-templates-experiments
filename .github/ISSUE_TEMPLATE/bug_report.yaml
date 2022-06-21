@@ -1,0 +1,70 @@
+name: Bug Report
+description: File a bug report
+labels: ["bug", "needs confirmation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        == Github Issues are for bug reports and feature requests only ==
+	      == Please visit https://community.nodebb.org for other support ==
+	      == Found a security exploit? Please email us at security@nodebb.org instead for immediate attention ==
+	      ==   → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER ==
+  - type: input
+    id: nodebb-version
+    attributes:
+      label: NodeBB version
+      placeholder: ex. v2.2.0
+  - type: input
+    id: git-hash
+    attributes:
+      label: NodeBB git hash
+      description: to find your git hash, execute `git rev-parse HEAD` from the main NodeBB directory
+      placeholder: ex. 783250ee6f8c51cdc243ce3b8d9f1a080517247e
+  - type: input
+    id: nodejs-version
+    attributes:
+      label: NodeJS version
+      placeholder: ex. v16.15.1
+  - type: textarea
+    id: nodebb-plugins
+    attributes:
+      label: Installed NodeBB plugins
+      description: to find installed plugins run ./nodebb plugins
+      render: markdown
+  - type: dropdown
+    id: db-type
+    attributes:
+      label: Database type
+      multiple: true
+      options:
+        - MongoDB
+        - Redis
+        - PostgreSQL
+  - type: input
+    id: db-version
+    attributes:
+      label: Database version
+      placeholder: ex. 5.0.9
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Exact steps to cause this issue
+      placeholder: |
+        1. First I did this...
+      	2. Then, I clicked on this item...
+
+      	A quick note: MP4 and MOV formatted video files are now allowed to be uploaded to GH.
+	      Please upload if reproduction steps are hard to describe or reproduce reliably.
+      render: markdown
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      placeholder: e.g. I expected *abc* to *xyz*
+      render: markdown
+  - type: textarea
+    id: actual
+    attributes:
+      label: What you expected
+      placeholder: e.g. Instead, I got *zyx* and NodeBB set fire to my house
+      render: markdown
