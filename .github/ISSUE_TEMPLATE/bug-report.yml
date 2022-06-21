@@ -10,28 +10,23 @@ body:
         Found a security exploit? Please email us at security@nodebb.org instead for immediate attention
         → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER ←
   - type: input
-    id: nodebb-version
     attributes:
       label: NodeBB version
       placeholder: v2.2.0
   - type: input
-    id: git-hash
     attributes:
       label: NodeBB git hash
       description: to find your git hash, execute `git rev-parse HEAD` from the main NodeBB directory
       placeholder: 783250ee6f8c51cdc243ce3b8d9f1a080517247e
   - type: input
-    id: nodejs-version
     attributes:
       label: NodeJS version
       placeholder: 16.15.1
   - type: textarea
-    id: nodebb-plugins
     attributes:
       label: Installed NodeBB plugins
       description: to find installed plugins run ./nodebb plugins
   - type: dropdown
-    id: db-type
     attributes:
       label: Database type
       multiple: true
@@ -40,12 +35,10 @@ body:
         - Redis
         - PostgreSQL
   - type: input
-    id: db-version
     attributes:
       label: Database version
       placeholder: 5.0.9
   - type: textarea
-    id: reproduction-steps
     attributes:
       label: Exact steps to cause this issue
       placeholder: |
@@ -55,17 +48,14 @@ body:
         A quick note: MP4 and MOV formatted video files are now allowed to be uploaded to GH.
         Please upload if reproduction steps are hard to describe or reproduce reliably.
   - type: textarea
-    id: expected
     attributes:
       label: What you expected
       placeholder: e.g. I expected *abc* to *xyz*
   - type: textarea
-    id: actual
     attributes:
-      label: What you expected
+      label: What happened instead
       placeholder: e.g. Instead, I got *zyx* and NodeBB set fire to my house
   - type: textarea
-    id: other
     attributes:
       label: Anything else?
       description: Any additional contabout the issue you're encountering
