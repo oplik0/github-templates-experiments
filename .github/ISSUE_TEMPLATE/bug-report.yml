@@ -8,23 +8,23 @@ body:
         Github Issues are for bug reports and feature requests only
         Please visit https://community.nodebb.org for other support
         Found a security exploit? Please email us at security@nodebb.org instead for immediate attention
-        → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER
+        → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER ←
   - type: input
     id: nodebb-version
     attributes:
       label: NodeBB version
-      placeholder: ex. v2.2.0
+      placeholder: v2.2.0
   - type: input
     id: git-hash
     attributes:
       label: NodeBB git hash
       description: to find your git hash, execute `git rev-parse HEAD` from the main NodeBB directory
-      placeholder: ex. 783250ee6f8c51cdc243ce3b8d9f1a080517247e
+      placeholder: 783250ee6f8c51cdc243ce3b8d9f1a080517247e
   - type: input
     id: nodejs-version
     attributes:
       label: NodeJS version
-      placeholder: ex. v16.15.1
+      placeholder: 16.15.1
   - type: textarea
     id: nodebb-plugins
     attributes:
@@ -43,7 +43,7 @@ body:
     id: db-version
     attributes:
       label: Database version
-      placeholder: ex. 5.0.9
+      placeholder: 5.0.9
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -68,7 +68,7 @@ body:
     id: other
     attributes:
       label: Anything else?
-      description: Any additional context about the issue you're encountering
+      description: Any additional contabout the issue you're encountering
   - type: markdown
     attributes:
       value: Thank you!
