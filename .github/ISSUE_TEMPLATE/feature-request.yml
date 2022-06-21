@@ -5,6 +5,8 @@ body:
   - type: textarea
     attributes:
       label: Description
+    validation:
+      required: true
   - type: input
     attributes:
       label: Community forum reference
