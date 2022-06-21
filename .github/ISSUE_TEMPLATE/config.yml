@@ -6,5 +6,4 @@ contact_links:
   - name: Security Issues
     url: https://nodebb.org/bounty/
     about: |
-      Found a security exploit? Please email us at security@nodebb.org instead for immediate attention
-      → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER ←
+      Found a security exploit? Please email us at security@nodebb.org instead for immediate attention. DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER
