@@ -75,7 +75,7 @@ body:
   - type: textarea
     attributes:
       label: Anything else?
-      description: Any additional contabout the issue you're encountering
+      description: Any additional context about the issue you're encountering
   - type: markdown
     attributes:
       value: "**Thank you!**"
