@@ -4,7 +4,8 @@ contact_links:
     url: https://community.nodebb.org
     about: Github Issues are for bug reports and feature requests only, please use community forum for other support
   - name: Security Issues
-    url: mailto:security@nodebb.org
+    url: https://nodebb.org/bounty/
     about: |
-      Found a security exploit? Please email us at security@nodebb.org instead for immediate attention
+      Found a security exploit? Please email us at mailto:security@nodebb.org instead for immediate attention
       → DO NOT SUBMIT VULNERABILITIES TO THE PUBLIC BUG TRACKER
+      Security vulnerability reports may be eligible for a bounty based on severity and confirmation from NodeBB team members. For full details regarding our bug bounty program, including the bounty amounts, please consult the [dedicated page for our Bug Bounty Program.](https://nodebb.org/bounty/)
