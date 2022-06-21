@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-labels: [""needs confirmation"]
+labels: ["needs confirmation"]
 body:
   - type: markdown
     attributes:
